@@ -21,5 +21,5 @@ void MainWindow::on_btnSayHello_clicked()
     string sname = "";
     QString name = ui->txtName->toPlainText();
 
-    ui->txtResult->setPlainText("Hello World " + name + "!");
+    ui->txtResult->setPlainText("Hello World " + name + "! -- changed....");
 }
